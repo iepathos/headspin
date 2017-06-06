@@ -145,7 +145,6 @@ server {{
         for p in range(num_ports - len(component_names)):
             conf_ports.append(str(available_region[p]))
             lports.remove(available_region[p])
-            print(available_region[p])
         ports = ';\n    listen '.join(conf_ports)
         conf = nginx_app_file.format(ports=ports, name=name, components=cpayload)
         open("nginx_conf/{}.conf".format(name), "w+").write(conf)

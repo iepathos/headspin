@@ -16,4 +16,4 @@ echo 'Generating new content'
 
 docker-compose up -d
 echo 'Checking services deployed'
-./check_services.py
+./tests.py

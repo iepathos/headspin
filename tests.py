@@ -24,7 +24,7 @@ for filename in os.listdir('nginx_conf'):
             port = lsplit[lsplit.index('listen') + 1].replace(';', '').strip()
             if check_port(port):
                 success.append(port)
-                print('Port %s checks out' % port)
+                # print('Port %s checks out' % port)
             else:
                 failed.append(port)
                 print('Port %s did not return 200 ok' % port)

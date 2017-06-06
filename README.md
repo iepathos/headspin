@@ -20,6 +20,6 @@ If configs are adjusted, do `docker exec nginx nginx -s reload` to reload nginx.
 
 + spinit.py - generates nginx config and pages given a config yaml
 
-+ check_services.py - Looks through the generated nginx configs and checks that the expected ports return 200 OK to get requests.
++ tests.py - Looks through the generated nginx configs and checks that the expected ports return 200 OK to get requests.
 
-+ do_everything.sh - does everything. Cleans up any existing configs or content before running spinit, docker-compose, and check_services.
++ do_everything.sh - does everything. Cleans up any existing configs or content before running spinit, docker-compose, and tests.
