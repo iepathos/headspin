@@ -1,0 +1,164 @@
+
+The challenge is to input a base configuration file and generate
+content to serve with a web server (nginx), as well as the necessary
+web server configuration file(s).
+
+
+Configuration Description
+=========================
+
+The input configuration file, data.yml, contains two sections: ports
+and services:
+
+
+Ports:
+
+  ports:
+    available-ranges:
+    - 0-5
+    - 10-20
+    base: 9000
+
+The `ports` section refers to available ports on a unix machine. The
+`base` value is a concrete port number on the machine. In the example,
+above it is port 9000.
+
+The `available-ranges` subsection is a list of <start>-<end> offset
+ranges starting at `base`. The available ranges in the example above
+translate to these concrete port ranges.
+
+  - 9000-9005
+  - 9010-9020
+
+This means that ports 9000 through 9005 are available, and ports 9010
+through 9020 are available, and all other ports are unavailable.
+
+
+Services
+
+  services:
+    - name: My Service
+      num_ports: 7
+      components:
+        - name: My Component
+          port: 3
+
+The `services` section contains a list of services. A service has a
+name, a port range, and a list of components. The value `num_ports` is
+the length of a continuous port range that *must* be fully allocated for
+this service, even if it's not fully in use initially.
+
+Each component has a name and a port. The component's `port` value is
+an offset into the service's port range.
+
+The service itself always allocates port offset 0 for itself.
+
+In the example above, the service allocates 7 ports. Given our
+available ports, we can assign ports 9010-9016 to this service. Port
+9010 (9010+0) is assigned to the service itself. Port 9013 (9010+3) is
+assigned to the component "My Component".
+
+
+Challenge Description
+=====================
+
+
+Port allocation:
+---------------
+
+Given the available port ranges, your code should allocate concrete
+ports for as many services as you can.
+
+If a service's port block cannot be allocated, print a warning for
+that service and skip it.
+
+If a component's port cannot be allocated due to a conflict or error,
+print a warning for that component and skip it.
+
+
+Rendering services and components on the web:
+--------------------------------------------
+
+We want to be able to browse each successfully allocated service and
+component in a web browser. For example, if a service's port is 9010,
+we should be able to navigate to http://localhost:9010 and see
+information about that service and its components.
+
+Similarly, if a component's port is 9013, we should be able to
+navigate to http://localhost:9013 and see information about that
+component.
+
+Here's how services and components should be rendered.
+
+When navigating to a service in a web browser, the web page
+should print the service's name, and a list of the service's
+component's names, with links to the component pages:
+
+  My Service
+  Components:
+    * My Component 1 (link to My Component 1)
+    * My Component 2 (link to My Component 2)
+
+When navigating to a component, the web page should print the
+component's name and a link to the service it belongs to:
+
+  My Component 1
+  Service: My Service (link to My Service)
+
+Finally, there should be an index page, also served from a port within
+the available ranges. On the index page we see a full list of all
+services and components, with links to each individual service and
+component.
+
+
+Nginx config
+------------
+
+Generate nginx config file(s) that can be included in a standard nginx
+configuration in order to serve the system described above using
+nginx.
+
+
+Serving the content
+-------------------
+
+You are free to either pre-generate all the content (e.g. in the form
+of individual html files) or write a server that loads the config file
+and serves the content dynamically.
+
+If you write a program that serves the content dynamically, you have
+to use nginx as a reverse-proxy sitting in front of your server. You
+have to generate the necessary nginx configuration for nginx to listen
+on the correct ports and proxy requests to your server.
+
+
+Deliverable
+===========
+
+One or more command-line tools written in Python. At least one tool
+should input a data file and generate nginx configuration:
+
+    prog <filename>
+
+where the filename is a file in the exact format as `data.yml`.
+
+The output should be nginx configuration files in whatever form is
+necessary. One file, multiple files in a directory, etc.
+
+On stdout, the tool will print the URL of the index page. For example:
+
+    $ prog data.yml
+    Nginx configuration: generated_nginx.conf
+    Index URL: http://localhost:8010
+
+The tool may print more information as necessary. In addition,
+documentation should be attached with any further instructions or
+manual steps necessary for getting the system up and running.
+
+
+Bonus
+=====
+
+Implement an efficient port allocation algorithm (allocates as many
+services as possible). Briefly explain why your algorithm is more
+efficient than alternatives. Is it optimal?

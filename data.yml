@@ -1,0 +1,718 @@
+ports:
+  available_ranges:
+  - 0-10
+  - 80-85
+  - 87-100
+  - 150-180
+  - 290-292
+  - 310-370
+  - 400-440
+  - 447-452
+  - 480-560
+  - 577-588
+  - 600-690
+  - 750-781
+  base: 16000
+services:
+- components:
+  - name: Belltopperdom
+    port: 5
+  name: Uncriticised
+  num_ports: 7
+- components:
+  - name: Decorticosis
+    port: 4
+  - name: Adenodermia
+    port: 1
+  name: Emirship
+  num_ports: 4
+- components:
+  - name: Namesake
+    port: 1
+  name: Jumpiness
+  num_ports: 10
+- components:
+  - name: Clepsydra
+    port: 1
+  - name: Unviewed
+    port: 6
+  - name: Didinium
+    port: 1
+  name: Trouveur
+  num_ports: 6
+- components:
+  - name: Infanticide
+    port: 1
+  name: Ideoplasty
+  num_ports: 5
+- components:
+  - name: Syntactically
+    port: 1
+  name: Avidly
+  num_ports: 2
+- components:
+  - name: Baillonella
+    port: 7
+  - name: Conciliable
+    port: 7
+  - name: Unthinning
+    port: 8
+  name: Isoamide
+  num_ports: 8
+- components:
+  - name: Infang
+    port: 8
+  - name: Indazin
+    port: 3
+  - name: Trimacular
+    port: 2
+  name: Mexica
+  num_ports: 10
+- components:
+  - name: Blad
+    port: 3
+  name: Resaddle
+  num_ports: 4
+- components:
+  - name: Alumina
+    port: 1
+  name: Auriculate
+  num_ports: 2
+- components:
+  - name: Gelseminine
+    port: 1
+  name: Villainist
+  num_ports: 1
+- components:
+  - name: Ae
+    port: 4
+  - name: Galactia
+    port: 8
+  - name: Tindal
+    port: 4
+  name: Tracheopyosis
+  num_ports: 8
+- components:
+  - name: Apellous
+    port: 7
+  - name: Vali
+    port: 7
+  - name: Contradictional
+    port: 6
+  name: Maillechort
+  num_ports: 7
+- components:
+  - name: Desmosite
+    port: 6
+  - name: Slavering
+    port: 3
+  - name: Calenture
+    port: 1
+  name: Sawaiori
+  num_ports: 8
+- components:
+  - name: Paniculated
+    port: 3
+  name: Unsatiated
+  num_ports: 4
+- components:
+  - name: Vaporize
+    port: 7
+  - name: Valviferous
+    port: 6
+  - name: Superattainable
+    port: 10
+  - name: Kashmiri
+    port: 6
+  - name: Subendorse
+    port: 3
+  name: Upgape
+  num_ports: 10
+- components:
+  - name: Involatility
+    port: 1
+  - name: Pokomam
+    port: 4
+  name: Mattoir
+  num_ports: 6
+- components:
+  - name: Mushrebiyeh
+    port: 1
+  - name: Bussock
+    port: 1
+  name: Crinose
+  num_ports: 5
+- components:
+  - name: Ureterostomy
+    port: 6
+  - name: Presupply
+    port: 5
+  name: Funnyman
+  num_ports: 7
+- components:
+  - name: Outspin
+    port: 9
+  - name: Vire
+    port: 9
+  name: Plowman
+  num_ports: 9
+- components:
+  - name: Reassignation
+    port: 1
+  name: Cupseed
+  num_ports: 2
+- components:
+  - name: Eudidymite
+    port: 1
+  name: Paddywhack
+  num_ports: 1
+- components:
+  - name: Scratch
+    port: 1
+  name: Roostership
+  num_ports: 7
+- components:
+  - name: Fleeringly
+    port: 3
+  - name: Pinkify
+    port: 5
+  - name: Nintu
+    port: 1
+  - name: Traipse
+    port: 2
+  name: Linearly
+  num_ports: 8
+- components:
+  - name: Parthenogenetically
+    port: 2
+  - name: Concorrezanes
+    port: 1
+  name: Choregy
+  num_ports: 9
+- components:
+  - name: Talented
+    port: 2
+  name: Farcelike
+  num_ports: 2
+- components:
+  - name: Smokelessly
+    port: 1
+  - name: Daddocky
+    port: 6
+  - name: Amanuenses
+    port: 9
+  - name: Tit
+    port: 6
+  - name: Buchonite
+    port: 6
+  name: Subframe
+  num_ports: 10
+- components:
+  - name: Multifidus
+    port: 4
+  - name: Malorganized
+    port: 1
+  - name: Vanadium
+    port: 5
+  - name: Autocarist
+    port: 6
+  name: Spinacia
+  num_ports: 9
+- components:
+  - name: Palaeoclimatology
+    port: 4
+  name: Jailyard
+  num_ports: 7
+- components:
+  - name: Intergyral
+    port: 5
+  name: Interventor
+  num_ports: 6
+- components:
+  - name: Thoracoschisis
+    port: 5
+  - name: Shakyamuni
+    port: 7
+  - name: Millicron
+    port: 4
+  name: Uniped
+  num_ports: 7
+- components:
+  - name: Damagement
+    port: 1
+  name: Protoblattoidea
+  num_ports: 1
+- components:
+  - name: Guahiban
+    port: 1
+  name: Akeki
+  num_ports: 2
+- components:
+  - name: Sirpea
+    port: 4
+  - name: Natiform
+    port: 5
+  name: Hemerythrin
+  num_ports: 6
+- components:
+  - name: Gowkedness
+    port: 5
+  - name: Reitemize
+    port: 9
+  - name: Typologist
+    port: 9
+  - name: Lethality
+    port: 9
+  name: Vernin
+  num_ports: 9
+- components:
+  - name: Splashed
+    port: 1
+  name: Multitudinously
+  num_ports: 1
+- components:
+  - name: Annular
+    port: 1
+  - name: Lovelock
+    port: 2
+  name: Savitar
+  num_ports: 4
+- components:
+  - name: Newelty
+    port: 3
+  name: Heelcap
+  num_ports: 3
+- components:
+  - name: Sculptor
+    port: 4
+  - name: Socialism
+    port: 10
+  name: Sighfully
+  num_ports: 10
+- components:
+  - name: Greenhide
+    port: 1
+  - name: Tripartite
+    port: 5
+  name: Subpurlin
+  num_ports: 6
+- components:
+  - name: Courageousness
+    port: 4
+  name: Hemitypic
+  num_ports: 6
+- components:
+  - name: Irrelativeness
+    port: 8
+  - name: Inactively
+    port: 8
+  name: Predestine
+  num_ports: 9
+- components:
+  - name: Truncation
+    port: 1
+  name: Clunisian
+  num_ports: 4
+- components:
+  - name: Unwinsome
+    port: 3
+  - name: Vulcanalial
+    port: 4
+  name: Palette
+  num_ports: 9
+- components:
+  - name: Cycloidally
+    port: 6
+  - name: Reveil
+    port: 6
+  - name: Unpraise
+    port: 10
+  name: Shaftfoot
+  num_ports: 10
+- components:
+  - name: Antitwilight
+    port: 2
+  - name: Solitudinarian
+    port: 7
+  name: Unpanelled
+  num_ports: 9
+- components:
+  - name: Antisepticism
+    port: 1
+  name: Driftless
+  num_ports: 1
+- components:
+  - name: Hemorrhodin
+    port: 1
+  name: Semipermeability
+  num_ports: 1
+- components:
+  - name: Versionize
+    port: 7
+  - name: Wetback
+    port: 5
+  - name: Calosoma
+    port: 5
+  name: Diploidy
+  num_ports: 10
+- components:
+  - name: Threatening
+    port: 5
+  - name: Shudderiness
+    port: 7
+  name: Randite
+  num_ports: 8
+- components:
+  - name: Subclinical
+    port: 6
+  - name: Syndesmitis
+    port: 2
+  name: Cohoba
+  num_ports: 9
+- components:
+  - name: Bummock
+    port: 3
+  name: Bassa
+  num_ports: 5
+- components:
+  - name: Polyloquent
+    port: 6
+  name: Subcallosal
+  num_ports: 7
+- components:
+  - name: Coenodioecism
+    port: 2
+  name: Bacteriotropic
+  num_ports: 2
+- components:
+  - name: Schismatic
+    port: 8
+  - name: Cisandine
+    port: 2
+  - name: Dorask
+    port: 7
+  name: Pyromagnetic
+  num_ports: 9
+- components:
+  - name: Spherulate
+    port: 5
+  name: Eurasian
+  num_ports: 9
+- components:
+  - name: Nonpickable
+    port: 1
+  name: Gurgoyle
+  num_ports: 2
+- components:
+  - name: Unlash
+    port: 7
+  - name: Secrete
+    port: 5
+  - name: Rasgado
+    port: 5
+  name: Noneleemosynary
+  num_ports: 7
+- components:
+  - name: Superimpose
+    port: 1
+  name: Voluntarity
+  num_ports: 2
+- components:
+  - name: Preliberally
+    port: 2
+  name: Pyrocollodion
+  num_ports: 3
+- components:
+  - name: Synaptosauria
+    port: 5
+  - name: Goneness
+    port: 2
+  - name: Goatfish
+    port: 3
+  - name: Epidermophytosis
+    port: 7
+  name: Frumentarious
+  num_ports: 8
+- components:
+  - name: Antifeudalism
+    port: 2
+  name: Mousefish
+  num_ports: 3
+- components:
+  - name: Nephalism
+    port: 2
+  name: Scornful
+  num_ports: 4
+- components:
+  - name: Gaumish
+    port: 2
+  - name: Chrisom
+    port: 1
+  - name: Orthophosphate
+    port: 4
+  - name: Ependymoma
+    port: 2
+  name: Omnitude
+  num_ports: 8
+- components:
+  - name: Blazingly
+    port: 3
+  - name: Tottlish
+    port: 2
+  - name: Unadvertency
+    port: 6
+  - name: Unparcel
+    port: 8
+  name: Plantad
+  num_ports: 8
+- components:
+  - name: Equisetaceae
+    port: 1
+  name: Rationalistic
+  num_ports: 1
+- components:
+  - name: Paratuberculin
+    port: 2
+  name: Demulcent
+  num_ports: 3
+- components:
+  - name: Cundeamor
+    port: 6
+  - name: Weddedly
+    port: 6
+  - name: Terek
+    port: 1
+  name: Lymphadenectasia
+  num_ports: 6
+- components:
+  - name: Slabberer
+    port: 5
+  - name: Thioxene
+    port: 7
+  - name: Lagrangian
+    port: 4
+  name: Ocellicystic
+  num_ports: 7
+- components:
+  - name: Expectorate
+    port: 1
+  name: Unmodifiableness
+  num_ports: 1
+- components:
+  - name: Dense
+    port: 9
+  - name: Tindal
+    port: 9
+  - name: Cleaning
+    port: 7
+  - name: Mastoidal
+    port: 9
+  name: Alcohol
+  num_ports: 10
+- components:
+  - name: Fatly
+    port: 1
+  name: Roundnose
+  num_ports: 1
+- components:
+  - name: Phrenopericardiac
+    port: 7
+  - name: Geomorphogenic
+    port: 7
+  - name: Erdvark
+    port: 5
+  - name: Baffle
+    port: 1
+  - name: Dipole
+    port: 7
+  name: Welter
+  num_ports: 10
+- components:
+  - name: Unsonorous
+    port: 5
+  - name: Anaclinal
+    port: 2
+  - name: Quotha
+    port: 6
+  name: Unframably
+  num_ports: 8
+- components:
+  - name: Carcaneted
+    port: 1
+  name: Notaryship
+  num_ports: 5
+- components:
+  - name: Natalian
+    port: 3
+  - name: Reprehensive
+    port: 8
+  - name: Akazgine
+    port: 1
+  - name: Ahmadi
+    port: 2
+  name: Benumbment
+  num_ports: 9
+- components:
+  - name: Derris
+    port: 2
+  - name: Afflicted
+    port: 3
+  - name: Hansgrave
+    port: 8
+  name: Interstitious
+  num_ports: 8
+- components:
+  - name: Exodist
+    port: 2
+  name: Austrianize
+  num_ports: 2
+- components:
+  - name: Sebright
+    port: 1
+  - name: Antinepotic
+    port: 3
+  name: Stereogastrula
+  num_ports: 5
+- components:
+  - name: Invisibility
+    port: 1
+  name: Antienthusiastic
+  num_ports: 1
+- components:
+  - name: Fortissimo
+    port: 3
+  - name: Crannog
+    port: 3
+  - name: Jalapa
+    port: 5
+  name: Upcourse
+  num_ports: 6
+- components:
+  - name: Bubbleless
+    port: 1
+  - name: Semidangerous
+    port: 3
+  name: Ungenerable
+  num_ports: 4
+- components:
+  - name: Bidcock
+    port: 5
+  - name: Birny
+    port: 2
+  - name: Sorceress
+    port: 4
+  name: Perspirable
+  num_ports: 7
+- components:
+  - name: Chukar
+    port: 1
+  name: Wingbeat
+  num_ports: 1
+- components:
+  - name: Dignification
+    port: 1
+  - name: Multicoil
+    port: 5
+  name: Embryoplastic
+  num_ports: 5
+- components:
+  - name: Ideation
+    port: 1
+  - name: Yelloch
+    port: 7
+  - name: Bephrase
+    port: 7
+  name: Teachership
+  num_ports: 7
+- components:
+  - name: Lineality
+    port: 5
+  name: Pheon
+  num_ports: 7
+- components:
+  - name: Preliterate
+    port: 6
+  - name: Morne
+    port: 2
+  name: Verbenarius
+  num_ports: 6
+- components:
+  - name: Endungeon
+    port: 9
+  - name: Slingstone
+    port: 3
+  - name: Struth
+    port: 6
+  name: Quiverer
+  num_ports: 9
+- components:
+  - name: Suppressor
+    port: 1
+  name: Griffon
+  num_ports: 2
+- components:
+  - name: Dioestrum
+    port: 4
+  - name: Custodier
+    port: 4
+  name: Dissent
+  num_ports: 10
+- components:
+  - name: Squaller
+    port: 2
+  - name: Demogorgon
+    port: 2
+  name: Uniat
+  num_ports: 6
+- components:
+  - name: Pantoplethora
+    port: 2
+  name: Coefficiently
+  num_ports: 6
+- components:
+  - name: Drofland
+    port: 10
+  - name: Unformalized
+    port: 10
+  name: Seemable
+  num_ports: 10
+- components:
+  - name: Interdentally
+    port: 2
+  name: Phaneroscope
+  num_ports: 8
+- components:
+  - name: Omniscope
+    port: 2
+  - name: Decorativeness
+    port: 6
+  - name: Timist
+    port: 2
+  name: Undertoned
+  num_ports: 6
+- components:
+  - name: Dedicator
+    port: 1
+  name: Transproser
+  num_ports: 4
+- components:
+  - name: Inofficiosity
+    port: 1
+  name: Unionist
+  num_ports: 1
+- components:
+  - name: Astrut
+    port: 8
+  - name: Unparking
+    port: 4
+  - name: Underslung
+    port: 8
+  name: Sculpturesqueness
+  num_ports: 8
+- components:
+  - name: Inobediently
+    port: 7
+  - name: Civism
+    port: 10
+  name: Atomically
+  num_ports: 10
