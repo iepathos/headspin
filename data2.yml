@@ -1,0 +1,664 @@
+ports:
+  available_ranges:
+  - 0-10
+  - 80-85
+  - 87-100
+  - 150-180
+  - 290-292
+  - 310-370
+  - 400-440
+  - 447-552
+  base: 16000
+services:
+- components:
+  - name: Sumerian
+    port: 4
+  name: Softie's
+  num_ports: 5
+- components:
+  - name: Panics
+    port: 5
+  name: Schmaltz
+  num_ports: 5
+- components:
+  - name: Budgeting
+    port: 4
+  - name: Carnival's
+    port: 4
+  - name: Interview's
+    port: 9
+  - name: Definer
+    port: 6
+  name: Ventriloquism
+  num_ports: 9
+- components:
+  - name: Clang's
+    port: 1
+  name: Fairway
+  num_ports: 2
+- components:
+  - name: Synonym
+    port: 3
+  - name: Trimurti
+    port: 4
+  - name: Mutiny
+    port: 10
+  name: Multipliers
+  num_ports: 10
+- components:
+  - name: Redbreast
+    port: 1
+  name: Estonians
+  num_ports: 1
+- components:
+  - name: Osiers
+    port: 1
+  name: Spartans
+  num_ports: 1
+- components:
+  - name: Assembled
+    port: 1
+  name: Adopting
+  num_ports: 1
+- components:
+  - name: Latitude
+    port: 2
+  name: Thoroughness's
+  num_ports: 6
+- components:
+  - name: Fives
+    port: 7
+  - name: Forester's
+    port: 2
+  name: Slat
+  num_ports: 10
+- components:
+  - name: Restorers
+    port: 7
+  - name: Briefness
+    port: 6
+  - name: Theta
+    port: 5
+  name: Transmigrating
+  num_ports: 7
+- components:
+  - name: Exotics
+    port: 8
+  - name: Swearer
+    port: 2
+  - name: Bedside
+    port: 8
+  - name: Castigators
+    port: 3
+  name: Fractals
+  num_ports: 9
+- components:
+  - name: Lauded
+    port: 2
+  - name: Abundantly
+    port: 2
+  - name: Raymundo
+    port: 3
+  name: Inside's
+  num_ports: 7
+- components:
+  - name: Redeemers
+    port: 2
+  name: Voracity
+  num_ports: 3
+- components:
+  - name: Fineness's
+    port: 7
+  - name: Individualize
+    port: 7
+  - name: Yolanda's
+    port: 2
+  - name: Operator's
+    port: 7
+  name: Forehand's
+  num_ports: 9
+- components:
+  - name: !!python/str "Clich\xE9d"
+    port: 2
+  name: Gunfight's
+  num_ports: 7
+- components:
+  - name: Berries
+    port: 1
+  name: Ch'in
+  num_ports: 8
+- components:
+  - name: Sportscaster
+    port: 3
+  name: Disagreeably
+  num_ports: 3
+- components:
+  - name: Steeplechase
+    port: 1
+  name: Ephemeral
+  num_ports: 2
+- components:
+  - name: Wields
+    port: 2
+  name: Brains
+  num_ports: 3
+- components:
+  - name: Randolph
+    port: 1
+  - name: Violated
+    port: 7
+  - name: Dies
+    port: 4
+  name: Gardenias
+  num_ports: 8
+- components:
+  - name: Climbed
+    port: 4
+  name: Yakut
+  num_ports: 4
+- components:
+  - name: Czarina's
+    port: 4
+  - name: Sopranos
+    port: 1
+  name: Shudder's
+  num_ports: 5
+- components:
+  - name: Ajax's
+    port: 3
+  name: Inquisitor's
+  num_ports: 3
+- components:
+  - name: Handiest
+    port: 1
+  - name: Mike's
+    port: 5
+  name: Pompom
+  num_ports: 5
+- components:
+  - name: Bluefish
+    port: 2
+  name: Kith's
+  num_ports: 3
+- components:
+  - name: Packaging's
+    port: 2
+  - name: Munition
+    port: 3
+  name: Reprove
+  num_ports: 6
+- components:
+  - name: Cloakrooms
+    port: 5
+  name: Sarcastically
+  num_ports: 8
+- components:
+  - name: Hippo's
+    port: 1
+  name: Stiller
+  num_ports: 4
+- components:
+  - name: Panza's
+    port: 1
+  name: Mazurka's
+  num_ports: 1
+- components:
+  - name: Bluster
+    port: 1
+  - name: Cavils
+    port: 4
+  - name: Overgrowth's
+    port: 6
+  - name: Paints
+    port: 7
+  name: Gethsemane
+  num_ports: 8
+- components:
+  - name: Paramours
+    port: 2
+  name: Megalomania
+  num_ports: 3
+- components:
+  - name: Tourists
+    port: 4
+  name: Intense
+  num_ports: 4
+- components:
+  - name: Why's
+    port: 3
+  name: Shaffer
+  num_ports: 3
+- components:
+  - name: Prominently
+    port: 1
+  name: Hayloft's
+  num_ports: 1
+- components:
+  - name: Deflating
+    port: 2
+  name: Frank's
+  num_ports: 2
+- components:
+  - name: Halifax
+    port: 2
+  name: Duel
+  num_ports: 2
+- components:
+  - name: Nippon
+    port: 6
+  - name: Rita
+    port: 6
+  name: Oxygenation
+  num_ports: 6
+- components:
+  - name: Espadrille's
+    port: 1
+  name: Compulsories
+  num_ports: 1
+- components:
+  - name: Flakiness
+    port: 4
+  - name: Paltriest
+    port: 2
+  - name: Guest
+    port: 5
+  - name: Rock's
+    port: 8
+  name: Foully
+  num_ports: 8
+- components:
+  - name: Plovers
+    port: 4
+  name: Dollops
+  num_ports: 4
+- components:
+  - name: Superiority's
+    port: 3
+  name: Reappointed
+  num_ports: 3
+- components:
+  - name: Eta
+    port: 2
+  name: Shrubs
+  num_ports: 3
+- components:
+  - name: Fixings
+    port: 1
+  name: Arborvitae
+  num_ports: 1
+- components:
+  - name: Nevertheless
+    port: 6
+  - name: Ganglions
+    port: 6
+  - name: Pilled
+    port: 4
+  name: Lhasa
+  num_ports: 8
+- components:
+  - name: Yacking
+    port: 3
+  name: Reprimands
+  num_ports: 3
+- components:
+  - name: Pygmies
+    port: 4
+  name: Counsellor
+  num_ports: 4
+- components:
+  - name: Nimrod
+    port: 7
+  name: Wisconsinite
+  num_ports: 8
+- components:
+  - name: Pressman
+    port: 1
+  name: Putrefaction's
+  num_ports: 2
+- components:
+  - name: Outclass
+    port: 4
+  name: Pitch's
+  num_ports: 5
+- components:
+  - name: Takeout's
+    port: 5
+  - name: Regeneration
+    port: 6
+  - name: Perambulators
+    port: 4
+  name: Unluckier
+  num_ports: 6
+- components:
+  - name: Crepe's
+    port: 1
+  name: Arrays
+  num_ports: 1
+- components:
+  - name: Skillful
+    port: 5
+  name: Elapses
+  num_ports: 9
+- components:
+  - name: Buffalo
+    port: 2
+  name: Dismissal
+  num_ports: 5
+- components:
+  - name: Gaucho
+    port: 5
+  - name: Pickaback
+    port: 9
+  - name: Andirons
+    port: 9
+  - name: Aligning
+    port: 7
+  name: Misnomer
+  num_ports: 10
+- components:
+  - name: Docked
+    port: 3
+  - name: Suspicious
+    port: 5
+  name: Legislating
+  num_ports: 8
+- components:
+  - name: Grungier
+    port: 1
+  - name: Nibble
+    port: 5
+  name: Affects
+  num_ports: 6
+- components:
+  - name: Consumes
+    port: 2
+  - name: Ortega
+    port: 1
+  - name: Sherry's
+    port: 1
+  name: Specialty
+  num_ports: 6
+- components:
+  - name: Captivating
+    port: 2
+  name: Imbecile
+  num_ports: 6
+- components:
+  - name: Euphoric
+    port: 3
+  - name: Henchman
+    port: 1
+  - name: Legal
+    port: 4
+  name: Bergen
+  num_ports: 6
+- components:
+  - name: Chumminess
+    port: 7
+  - name: Confiscation
+    port: 8
+  name: Malaysians
+  num_ports: 9
+- components:
+  - name: Proboscides
+    port: 2
+  - name: Offset
+    port: 5
+  - name: Corrosive
+    port: 5
+  name: Member's
+  num_ports: 7
+- components:
+  - name: Corinne
+    port: 1
+  - name: Tosca's
+    port: 5
+  - name: Tree's
+    port: 2
+  name: Corpulence
+  num_ports: 6
+- components:
+  - name: Lusty
+    port: 3
+  name: Frost's
+  num_ports: 7
+- components:
+  - name: Cameramen
+    port: 3
+  name: Autopilot
+  num_ports: 3
+- components:
+  - name: Deportment's
+    port: 2
+  - name: Deeming
+    port: 2
+  name: Monicker
+  num_ports: 5
+- components:
+  - name: Nightclub
+    port: 2
+  name: Sonny's
+  num_ports: 3
+- components:
+  - name: Oversleeping
+    port: 1
+  - name: Electrocutions
+    port: 5
+  name: Smelter's
+  num_ports: 5
+- components:
+  - name: Opaquest
+    port: 1
+  name: Flatbed's
+  num_ports: 8
+- components:
+  - name: Smelting
+    port: 5
+  name: Disgusts
+  num_ports: 5
+- components:
+  - name: Captivity's
+    port: 1
+  name: Hatchbacks
+  num_ports: 6
+- components:
+  - name: Enamored
+    port: 5
+  - name: Newsagents
+    port: 6
+  name: Tinderbox
+  num_ports: 7
+- components:
+  - name: Elastic
+    port: 2
+  name: Morass
+  num_ports: 2
+- components:
+  - name: Franny
+    port: 6
+  - name: Hallelujah's
+    port: 8
+  name: Madrid's
+  num_ports: 10
+- components:
+  - name: Debora's
+    port: 2
+  name: Nodular
+  num_ports: 4
+- components:
+  - name: Unseated
+    port: 3
+  name: Rhoda's
+  num_ports: 7
+- components:
+  - name: Aid
+    port: 8
+  - name: Servo's
+    port: 8
+  name: Causal
+  num_ports: 9
+- components:
+  - name: Rave's
+    port: 5
+  - name: Plausibly
+    port: 2
+  - name: Laundry
+    port: 7
+  - name: Daunted
+    port: 5
+  name: Willy
+  num_ports: 8
+- components:
+  - name: Savored
+    port: 4
+  - name: Retired
+    port: 2
+  name: Ambassadorships
+  num_ports: 6
+- components:
+  - name: Tomfooleries
+    port: 4
+  name: Rivalled
+  num_ports: 5
+- components:
+  - name: Hamstring's
+    port: 4
+  - name: Procrastinating
+    port: 4
+  - name: Defrosts
+    port: 6
+  name: Pushier
+  num_ports: 6
+- components:
+  - name: Kongo's
+    port: 3
+  name: Amorally
+  num_ports: 5
+- components:
+  - name: Chippewa's
+    port: 6
+  - name: Gluier
+    port: 1
+  name: Psychiatry's
+  num_ports: 7
+- components:
+  - name: Piglet's
+    port: 3
+  name: Healthfulness
+  num_ports: 6
+- components:
+  - name: Archipelagos
+    port: 2
+  name: Answer's
+  num_ports: 2
+- components:
+  - name: Feminism
+    port: 4
+  - name: Manumit
+    port: 2
+  - name: Disclosure's
+    port: 7
+  name: Amphetamine
+  num_ports: 9
+- components:
+  - name: Flatteringly
+    port: 5
+  - name: Beforehand
+    port: 6
+  - name: Ulceration
+    port: 3
+  name: Magnetizing
+  num_ports: 6
+- components:
+  - name: Forts
+    port: 3
+  - name: Foolish
+    port: 5
+  name: Complicity's
+  num_ports: 6
+- components:
+  - name: Interceptor's
+    port: 3
+  name: Dominique's
+  num_ports: 10
+- components:
+  - name: Terrorized
+    port: 3
+  - name: Inhalers
+    port: 8
+  name: Dishonorable
+  num_ports: 9
+- components:
+  - name: Mountaineer's
+    port: 2
+  name: Oppresses
+  num_ports: 4
+- components:
+  - name: Tears
+    port: 2
+  name: Sentiments
+  num_ports: 2
+- components:
+  - name: Tennis's
+    port: 4
+  - name: Mewl
+    port: 9
+  - name: Prowler
+    port: 6
+  - name: Laddering
+    port: 9
+  - name: Abnormalities
+    port: 2
+  name: Computationally
+  num_ports: 10
+- components:
+  - name: Mitty
+    port: 1
+  name: Theology
+  num_ports: 6
+- components:
+  - name: Listlessness's
+    port: 1
+  name: Uprooted
+  num_ports: 2
+- components:
+  - name: Rimming
+    port: 1
+  - name: Bespoken
+    port: 4
+  - name: Subtle
+    port: 4
+  - name: Pauses
+    port: 4
+  name: Creole
+  num_ports: 9
+- components:
+  - name: Mini
+    port: 4
+  - name: Shankara
+    port: 6
+  - name: Dioxin's
+    port: 5
+  name: Vilyui
+  num_ports: 9
+- components:
+  - name: Catholicity's
+    port: 5
+  - name: Carbons
+    port: 3
+  - name: Pried
+    port: 1
+  name: Mislaid
+  num_ports: 10
+- components:
+  - name: Tswana's
+    port: 4
+  - name: Francoise
+    port: 10
+  name: Pitch
+  num_ports: 10
+- components:
+  - name: Fried
+    port: 6
+  name: Tulips
+  num_ports: 6
