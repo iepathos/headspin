@@ -151,8 +151,7 @@ server {{
 
         regions = find_available_regions(lports)
     else:
-        print('WARNING: Not enough valid ports left to assign, skipping service %s' % name)
-        print('Service needs %s ports and there is no available region of that length.' % num_ports)
+        print('WARNING: %s ports needed for service %s but not enough continuous ports left, skipping service.' % (num_ports, name))
 
 
 service_check = {}

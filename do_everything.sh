@@ -11,7 +11,7 @@ docker stop nginx
 echo 'Cleaning up any old configs or content'
 rm -rf nginx_conf
 rm -rf nginx_www
-echo 'Generating new content'
+echo 'Generating new configs and content'
 ./spinit.py ${1}
 
 docker-compose up -d
