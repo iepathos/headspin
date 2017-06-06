@@ -14,7 +14,7 @@ Solution
 ./do_everything.sh data.yml
 ````
 
-If configs or pages are adjusted, do `docker exec nginx nginx -s reload` to reload nginx.
+If configs are adjusted, do `docker exec nginx nginx -s reload` to reload nginx.
 
 `docker stop nginx` to bring down the nginx docker container.
 
