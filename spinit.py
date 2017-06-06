@@ -7,6 +7,9 @@ from itertools import groupby
 """
 Generates nginx configs given data.yml
 
+Usage:
+    ./spinit.py example.yml
+
 Written By: Glen Baker <iepathos@gmail.com>
 """
 
@@ -150,7 +153,7 @@ server {{
         regions = find_available_regions(lports)
     else:
         print('WARNING: Not enough valid ports left to assign, skipping service %s' % name)
-        print('Service needs %s and length of available region %s' % (num_ports, len(available_region)))
+        print('Service needs %s ports and there is no available region of that length.' % num_ports)
 
 
 service_check = {}
