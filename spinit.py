@@ -110,16 +110,16 @@ def write_config(data):
             for idx, cname in enumerate(component_names):
                 port = port_offsets[idx] + available_region[0]
                 component_payload = """
-    server {{
-        server_name {name};
-        listen {port};
-        root /var/www/{name};
+server {{
+    server_name {name};
+    listen {port};
+    root /var/www/{name};
 
-        location / {{
-            index index.htm index.html;
-        }}
+    location / {{
+        index index.htm index.html;
     }}
-    """.format(name=cname.lower(), port=port)
+}}
+""".format(name=cname.lower(), port=port)
                 cpayload += component_payload
                 service_port_map[cname] = [port]
                 component_service_map[cname] = name
