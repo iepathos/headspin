@@ -22,13 +22,13 @@ def find_available_regions(lports):
     return regions
 
 
-def find_region(regions, chunk, available_ranges):
+def find_region(regions, chunk):
     # find smallest region of required chunk size
     available_regions = [r for r in regions if len(r) >= chunk]
     if len(available_regions) > 0:
         smallest = len(available_regions[0])
         smallest_idx = 0
-        for idx, r in enumerate(available_ranges):
+        for idx, r in enumerate(available_regions):
             if len(r) < smallest:
                 smallest = len(r)
                 smallest_idx = idx
@@ -62,7 +62,7 @@ def write_config(data):
     # using first available port for the registrar service
     num_ports = 1
     regions = find_available_regions(lports)
-    available_region = find_region(regions, num_ports, available_ranges)
+    available_region = find_region(regions, num_ports)
     port = available_region[0]
     lports.remove(port)
     service_port_map['registrar'] = [port]
@@ -80,7 +80,7 @@ def write_config(data):
         components = service.get('components')
         conf_ports = []
         regions = find_available_regions(lports)
-        available_region = find_region(regions, num_ports, available_ranges)
+        available_region = find_region(regions, num_ports)
 
         if len(available_region) > num_ports:
             service_port_map[name] = available_region[:num_ports]
