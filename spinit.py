@@ -53,10 +53,9 @@ def write_config(data):
     component_service_map = {}
     nginx_app_file = open("nginx_service.conf").read()
 
-    # sort services by num_ports beforehand so we allocate smallest services first
-    # the Bonus on the challenge requests as many services as possible
-    # so that is why prioritize smaller services here rather than some other metric
-    # like maximize ports used or components deployed
+    # sort services by num_ports beforehand so we allocate smallest services
+    # first. The Bonus on the challenge requests as many services as possible
+    # and prioritizing smaller services here should yield that
     services.sort(key=lambda x: int(x.get('num_ports')), reverse=False)
 
     # using first available port for the registrar service
@@ -89,13 +88,13 @@ def write_config(data):
             if num_ports > 1:
                 for component in components:
                     if len(available_region) == 1:
-                        # port offset 0 is saved for the service itself, not components
+                        # port offset 0 is saved for the service, not components
                         print('WARNING: Port conflict for component %s, skipping.' % component.get('name'))
                     else:
                         offset = component.get('port')
                         if offset >= num_ports:
-                            # some components have port offsets greater than the service's
-                            # required ports.
+                            # some components have port offsets greater than
+                            #  the service's required ports.
                             print('WARNING: Port conflict for component %s, port offset greater than required ports for service, skipping.' % component.get('name'))
                         elif offset not in port_offsets and offset < num_ports:
                             port_offsets.append(offset)
@@ -138,7 +137,6 @@ server {{
             regions = find_available_regions(lports)
         else:
             print('WARNING: %s ports needed for service %s but not enough continuous ports left, skipping service.' % (num_ports, name))
-
 
     service_check = {}
     for k, v in service_port_map.items():
