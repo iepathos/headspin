@@ -1,6 +1,6 @@
 # HeadSpin Devops
 
-Uses docker and docker-compose to test locally for nginx container. [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)  Generated configs and pages can easily be used with a standard host nginx install as well.
+Uses docker and docker-compose to test locally for nginx container. [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)  Generated configs and pages can easily be used with a standard host nginx install as well.  Configs end up in nginx_conf subfolder and content ends up in nginx_www subfolder.  Those folders are mapped to /etc/nginx/conf.d and /var/www respectively in the nginx container.
 
 Setup in a Python 3 environment.  Tested with Python 3.6.0.
 
